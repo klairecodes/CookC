@@ -1,0 +1,3 @@
+/home/klaus/CLionProjects/CookC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/klaus/CLionProjects/CookC/cmake-build-debug/CMakeFiles/CookC.dir
+/home/klaus/CLionProjects/CookC/cmake-build-debug/CMakeFiles/edit_cache.dir
