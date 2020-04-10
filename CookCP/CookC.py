@@ -8,29 +8,29 @@ def mkBoard(file):
         if line[0] == "#":
             pass
         else:
-            board.append(line)
+            board.append(list(line))
     return board
+
 
 # Prints the currect board to the screen
 def drawBoard():
     for item in BOARD:
-        print(item)
+        itemStr = ''.join(item)
+        print(itemStr)
+
 
 # Spawns a new player at the specified location
 def spawn():
-#     boardRow = list(BOARD[row])
-#     boardRow[col] = "V"
-#     print(boardRow)
     index = 0
     for item in BOARD:
-        found = item.find("?")
+        itemString = ''.join(item)
+        found = itemString.find("?")
         if found < 0:
             pass
         elif found >= 0:
             print("FOUND!")
-            rowList = list(item)
-            rowList[found] = "V"
-            BOARD[BOARD.index(item)] = ''.join(rowList)
+            item[found] = "V"
+
 
 boardFile = open("gameBoards/concessions.txt")
 BOARD = mkBoard(boardFile)
