@@ -1,0 +1,13 @@
+# Concessions Layout
+# A ? is where the player will spawn.
+#1234567890
+..X|X|X|XXX
+...........
+XX.RLRKRC.X
+XX........X
+S.\.?.....X
+S.X.PZZNTFX
+S.X.......X
+X.XOOFCEHDX
+X.XXXXXXXXX
+XMXXXXXXXXX
