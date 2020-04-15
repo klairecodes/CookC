@@ -35,4 +35,11 @@ or
 python CookC.py
 ```
 
+## Screenshots
+![Gameboard](Screenshot.png?raw=true "Screenshot")
+
+![Keyboard Input](/relative/path/to/img.jpg?raw=true "Screenshot1")
+
+![Exit condition and quitting](/relative/path/to/img.jpg?raw=true "Screenshot2")
+
 ##### This game is still in early development.
