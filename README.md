@@ -10,7 +10,7 @@ Why would I implement this in an impractical way? Well, it makes it easy to disp
 
 I was inspired by [Collapse OS](https://itsfoss.com/collapse-os/), an OS designed to run on a z80 chip found extremely commonly in consumer electronics. The idea is that due to their ubiquity, these processors could be scavenged and used to run a kernel and operating system to be able to develop software. Seeing this, I thought of other components that are that common, and character LCD screens came to mind. They are plentiful, durable, and long lasting, so why not try to make them do something in the event of an emergency? Natrually what I thought they should do is play games. 
 
-To see the ThinkPad Cyberdeck that this game will be running on, and its build process, go [HERE] 
+To see the ThinkPad Cyberdeck that this game will be running on, and its build process, go [HERE](https://imgur.com/a/ExLBzjo)
 
 Now on to the project specifically:
 
