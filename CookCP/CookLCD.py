@@ -18,7 +18,7 @@ lcd_columns = 16
 lcd_rows    = 2
 
 # Initialize the LCD using the pins above.
-lcd = CharLCD(pin_rs=lcd_rs, pin_rw=6, pin_e=lcd_en, pins_data=[lcd_d4, lcd_d5, lcd_d6, lcd_d7], numbering_mode=GPIO.BOARD)
+lcd = CharLCD(pin_rs=lcd_rs, pin_rw=6, pin_e=lcd_en, pins_data=[lcd_d4, lcd_d5, lcd_d6, lcd_d7], numbering_mode=GPIO.BCM)
 
 # Print a two line message
 lcd.write_string('LCD\nInitialized')
