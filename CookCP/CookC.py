@@ -37,6 +37,7 @@ def spawn():
 Get the location of the player
 """
 def getLocation():
+    found = -1
     playerSprites = ("<", "V", "^", ">")
     for item in BOARD:
         itemString = "".join(item)
@@ -44,12 +45,17 @@ def getLocation():
         while found == 0:
             for sprite in playerSprites:
                 found = itemString.find(sprite)
+    return found
 
 
 """
 Moves the player based on what direction code was given
+Key: [0:left, 1:down, 2:up, 3:right]
 """
 def move(direction):
+    location = getLocation()
+    if location < 0:
+        raise IndexError("Player not found.")
     if direction == 0:
         pass
     if direction == 1:
